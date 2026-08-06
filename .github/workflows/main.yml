@@ -8,12 +8,12 @@ jobs:
     strategy:
       matrix:
         DOCKER_IMAGE:
-          - "ubuntu-22.04"
-          - "ubuntu-26.04"
-          - "fedora-44"
-          - "centos-stream9"
-          - "opensuse-leap"
-          - "alpine-3.24"
+          - "ubuntu-22.04-dev"
+          - "ubuntu-26.04-dev"
+          - "fedora-44-dev"
+          - "centos-stream9-dev"
+          - "opensuse-leap-dev"
+          - "alpine-3.24-dev"
         TPM2TSS_BRANCH: ["master"]
         CC: ["gcc", "clang"]
     steps:
